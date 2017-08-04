@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Zxinglib</string>
+
+    <integer name="viewfinder_border_width">4</integer>
+    <integer name="viewfinder_border_length">60</integer>
+    <string name="prompt">将二维码放入框内，即可自动扫描</string>
+    <string name="sacn_title">扫一扫</string>
+    <string name="scan_photo">相册</string>
+    <string name="scan_content">将取景框对准二维码，即可自动扫描</string>
+    <string name="scan_light">闪光灯</string>
+    <string name="scan_input">手动输入</string>
+
+</resources>

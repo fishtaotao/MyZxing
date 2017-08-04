@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="horizontal"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+    <View
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1.5"
+        android:background="@color/grey_60000000"/>
+
+    <RelativeLayout
+        android:id="@+id/scan_window"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="7"
+        >
+
+        <ImageView
+            android:id="@+id/scanner_line"
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:src="@mipmap/scanner"
+            android:visibility="gone"/>
+
+        <View
+            android:layout_width="15dp"
+            android:layout_height="2dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:background="@color/green_09bb07"/>
+
+        <View
+            android:layout_width="15dp"
+            android:layout_height="2dp"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:background="@color/green_09bb07"/>
+
+        <View
+            android:layout_width="15dp"
+            android:layout_height="2dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:background="@color/green_09bb07"/>
+
+        <View
+            android:layout_width="15dp"
+            android:layout_height="2dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:background="@color/green_09bb07"/>
+
+        <View
+            android:layout_width="2dp"
+            android:layout_height="15dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:background="@color/green_09bb07"/>
+
+        <View
+            android:layout_width="2dp"
+            android:layout_height="15dp"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:background="@color/green_09bb07"/>
+
+        <View
+            android:layout_width="2dp"
+            android:layout_height="15dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:background="@color/green_09bb07"/>
+
+        <View
+            android:layout_width="2dp"
+            android:layout_height="15dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:background="@color/green_09bb07"/>
+    </RelativeLayout>
+
+    <View
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1.5"
+        android:background="@color/grey_60000000"/>
+
+</LinearLayout>
