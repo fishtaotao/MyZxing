@@ -27,7 +27,6 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             case R.id.btn_2:
                 mIntent = new Intent(MainActivity.this, DiyScanActivity.class);
                 startActivity(mIntent);
-
                 break;
         }
     }
